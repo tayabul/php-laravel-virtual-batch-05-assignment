@@ -1,0 +1,170 @@
+ @media screen and (max-width: 1130px) {
+/* header responsive style start */
+
+    .container{
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    header .header-flex .header-right {
+        padding-left: 5rem;
+    }
+/* header responsive style end */
+
+    
+  }
+
+ @media screen and (max-width: 992px) {
+/* header responsive style start */
+
+    .container{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    header .header-flex .header-right {
+        padding-left: 70px;
+    }
+/* header responsive style end */
+
+    h3{
+        font-size: 1.3rem;
+    }
+    
+  }
+
+  @media screen and (max-width: 786px) {
+/* header responsive style start */
+
+    .container{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    header .header-flex .header-right {
+        padding-left: 50px;
+    }
+
+    header .header-flex .header-left {
+        width: 45%;
+    }
+
+    .header-left img{
+        width: 6em;
+        height: 125px;
+    }
+
+    header h2 {
+        font-size: 1.4rem;
+        width: 110px;
+    }
+
+    header .header-flex .header-right h5 {
+        font-size: 1.3rem;
+    }
+
+    p{
+        font-size: 1rem;
+    }
+/* header responsive style end */
+
+/* academic part responsive start */
+
+    #academic .academic-flex .academic-left{
+        width: 120px;
+    }
+/* academic part responsive end */
+
+/* computer proficiency responsive start */
+    #computer-proficiency .proficiency-flex .proficiency-left{
+        width: 210px;
+    }
+/* computer proficiency responsive end */
+
+    
+  }
+
+
+  @media screen and (max-width: 580px) {
+    
+    h3{
+        font-size: 1.2rem;
+    }
+
+/* header responsive style start */
+    header .header-flex .header-right {
+        padding-left: 20px;
+    }
+
+    header .header-flex .header-left {
+        width: 42%;
+    }
+
+    .header-left img{
+        width: 5em;
+        height: 105px;
+    }
+
+    header h2 {
+        font-size: 1.3rem;
+        width: 110px;
+    }
+
+    header .header-flex .header-right h5 {
+        font-size: 1.2rem;
+    }
+
+    header .header-flex .header-right p:first-child {
+        font-size: 16px;
+    }
+/* header responsive style end */
+
+
+/* academic part responsive start */
+    #academic .academic-flex .academic-left{
+        width: 70px;
+    }
+    /* academic part responsive end */
+
+/* computer proficiency responsive start */
+    #computer-proficiency .proficiency-flex .proficiency-left{
+        width: 159px;
+    }
+/* computer proficiency responsive end */
+
+/* project summary responsive start */
+    #project-summary .summary-flex .summary-left{
+        width: 160px;
+    }
+/* project summary responsive end */
+
+  }
+
+  @media screen and (max-width: 510px) {
+    
+    p{
+        font-size: .9rem;
+    }
+
+/* header responsive style start */
+    header .header-flex {
+        flex-direction: column;
+    }
+
+    header .header-flex .header-left{
+        width: 100%;
+    }
+    
+    header .header-flex .header-left img{
+        margin-left: 35%;
+
+    }
+/* header responsive style end */
+
+/* project summary responsive start */
+    #project-summary .summary-flex .summary-left{
+        width: 120px;
+    }
+/* project summary responsive start */
+
+  }

@@ -1,0 +1,213 @@
+body, h1,h2,h3,h4,h5,   p, ul,figure{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.horizantal-line{
+    width: 100%;
+    height: 2px;
+    background-color: rgb(151, 156, 154);
+    margin-bottom: 3px;
+}
+
+p{
+    font-size: 18px;
+}
+
+h3{
+    font-size: 1.4rem;
+    background-color: rgb(219, 217, 215);
+}
+
+ul{
+    font-size: 18px;
+    padding: 6px 0 20px 30px;
+}
+
+/* header part style start */
+header{
+    margin-bottom: 10px;
+}
+header h2{
+    font-size: 28px;
+    width: 125px;
+    padding-top: 60px;
+    margin: auto;
+}
+
+.header-flex{
+    display: flex;
+    
+}
+
+.header-left{
+    width: 50%;
+}
+
+.header-left img{
+    width: 7em;
+    height: 145px;
+    border: 1px solid black;
+    margin: 20px 0 0 50px ;
+
+}
+
+header .header-flex .header-right{
+    padding-left: 6rem;
+}
+
+header .header-flex .header-right p:first-child{
+    font-size: 20px;
+    padding: 20px 0;
+}
+
+header .header-flex .header-right{
+    font-size: 18px;
+}
+
+header .header-flex .header-right h5{
+    font-size: 1.5rem;
+}
+
+/* header part style end */
+
+/* object part style start */
+
+#Objective  p{
+    padding: 10px 0;
+
+
+}
+
+/* object part style end */
+
+/* academic part style start */
+
+#academic .academic-flex{
+    display: flex;
+    padding: 10px 0 15px 0;
+    font-size: 18px;
+}
+
+#academic .academic-flex .academic-left{
+    width: 130px;
+}
+
+#academic .academic-flex .academic-left .academic-left-top{
+    padding-bottom: 15px;
+}
+
+#academic .academic-flex .academic-right .academic-right-top{
+    padding-bottom: 15px;
+}
+/* academic part style end */
+
+/* Duties-and-Responsibilities style start */
+
+#Duties-and-Responsibilities ul{
+    padding: 6px 0 20px 30px;
+}
+
+#Duties-and-Responsibilities ul li{
+    line-height: 22px;
+}
+/* Duties-and-Responsibilities style end */
+
+/* Activities style start */
+
+#activities .container p:nth-child(3){
+    padding: 5px 0 3px 0;
+}
+
+#activities .container p:last-child{
+    padding-bottom: 10px;
+}
+/* Activities style end */
+
+/* communication skills part style start */
+#communication-skills ul{
+    padding: 5px 0 10px 30px;
+}
+/* communication skills part style end */
+
+/* computer proficiency style start */
+#computer-proficiency .proficiency-flex{
+    display: flex;
+    padding: 10px 0 15px 0;
+}
+
+#computer-proficiency .proficiency-flex .proficiency-left{
+    width: 250px;
+}
+
+/* computer proficiency style end */
+
+/* project summary style start */
+#project-summary .container > p{
+    padding: 3px 0;
+}
+#project-summary .summary-flex{
+    display: flex;
+}
+
+#project-summary .summary-flex .summary-left{
+    width: 200px;
+}
+
+#project-summary .summary-flex .summary-left p:nth-child(2){
+    padding-bottom: 15px;
+}
+
+#project-summary .summary-flex .summary-right p:nth-child(2){
+    padding-bottom: 15px;
+}
+
+#project-summary{
+    margin-bottom: 15px;
+}
+/* project summary style end */
+
+/* internship style start */
+#internship .container p:nth-child(3){
+    padding: 3px 0;
+    text-decoration: underline;
+}
+
+#internship .container p:nth-child(5){
+    padding: 7px 0 3px 0;
+    text-decoration: underline;
+}
+
+#internship{
+    margin-bottom: 15px;
+}
+/* internship style end */
+
+/* reference style start */
+#reference{
+    margin-bottom: 15px;
+}
+/* reference style end */
+
+/* Personal Information style start */
+#information .information-flex{
+    display: flex;
+    padding-top: 3px;
+}
+
+#information .information-flex .information-left{
+    width: 200px;
+}
+
+/* Personal Information style end */
+
+/* declaration part style start */
+#declaration .container p:nth-child(3){
+    padding-bottom: 10px;
+}
+/* declaration part style end */
