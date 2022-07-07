@@ -31,13 +31,19 @@ ul{
 
 /* header part style start */
 header{
-    margin-bottom: 10px;
+    margin: 10px 0;
 }
+
+header .header-name{
+    background-color: rgb(204 205 205);
+    height: 32px;
+    margin-top: 40px;
+}
+
 header h2{
     font-size: 28px;
     width: 125px;
-    padding-top: 60px;
-    margin: auto;
+    margin: 0 auto;
 }
 
 .header-flex{
@@ -156,7 +162,7 @@ header .header-flex .header-right h5{
 }
 
 #project-summary .summary-flex .summary-left{
-    width: 200px;
+    width: 160px;
 }
 
 #project-summary .summary-flex .summary-left p:nth-child(2){
@@ -165,6 +171,11 @@ header .header-flex .header-right h5{
 
 #project-summary .summary-flex .summary-right p:nth-child(2){
     padding-bottom: 15px;
+}
+
+#project-summary .summary-flex .summary-right p a{
+    text-decoration: none;
+    color: #000;
 }
 
 #project-summary{
